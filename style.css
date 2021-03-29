@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto:wght@300;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    
+}
+
+.logo{
+display:none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 100px;
+    color:#8B3036;    
+    text-align: center;
+    background-color: #F4837D;
+    
+  
+}
+
+
+.col{
+
+    width: 100%;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row-2{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+.rest{
+   margin: 0 auto;
+    letter-spacing:5px;
+    
+    text-align: center;
+    
+   /* background-color: rgb(219, 181, 181);*/
+   background: transparent;
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+     
+    color:white;
+    width: 100%;
+   
+    
+
+}
+
+#span-title{
+    position: relative;
+    letter-spacing: 10px;
+    font-size:6.5vw;
+   padding-bottom: 150px;
+}
+
+
+
+
+
+.container{
+
+  /*  background: linear-gradient(180DEG,#F4837D ,#dbb5b5);*/
+  background-image: url(Pics/Pencil\ image-pink.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+   
+}
+
+.container-2{
+    margin-top: 5px;
+    
+}
+
+.container-3{
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url(Pics/Pencil\ image-pink.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 90%;
+
+}
+
+.rev-1,.rev-2{    
+    border-right: #8B3036 2px solid;
+}
+
+.rev-1,.rev-2,.rev-3{
+    text-align: center;
+    padding-right: 10px;
+}
+
+.rev-p{
+    padding: 2em 0;
+    margin:0 auto ;
+    width:85%;
+}
+
+.profile-pic{
+
+    margin: 30px;
+    position:absolute;
+    bottom:-20%; 
+    left:2%;
+
+    
+    background-size: cover;
+   
+    border-radius: 50%;
+    border: white double 2px;
+}
+
+
+
+.mySlides{
+    text-align: center;
+    transition: all ease-in-out 3s;  
+   
+    padding:1.5rem;
+display: none;
+
+}
+
+
+.w3-animate-fading-me{animation:fading-me 2s ease-in-out   ;
+   
+
+}
+@keyframes fading-me{0%{opacity:.0}25%{opacity:.5} 100%{opacity:1}}
+
+.para-greeting{
+   margin: 0 auto;
+    text-align: center;
+    width:80%;
+    max-width: 800px;
+    padding: .5rem;
+    margin-bottom: 30px;
+}
+
+.greeting-title{
+    font-family: 'Caveat' ;
+    color: #8B3036;
+    letter-spacing: .05em;
+
+}
+
+.greeting{
+   
+    background: linear-gradient(180DEG,#F4837D ,#dbb5b5);
+    
+    
+}
+
+.button{    
+    border:solid 2px white;
+ margin: 0 auto;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    width: 60%;
+    max-width: 200px;
+    border-radius: 10rem;
+   background: linear-gradient(90deg,#8b3036,#dbb5db );
+    background-color: #8B3036;
+    color: aliceblue;
+
+}
+
+.button:focus,
+.button:hover {
+    cursor:pointer;
+}
+.content{
+    padding: 20px;  
+  
+}
+
+
+.frame-container{
+    display:none;
+     height: 1000px;
+}
+
+
+.display{
+    width:50%;
+     padding-bottom: 20px;
+}
+.slides{
+    margin: 0 auto;
+    width: 100%;
+        
+        
+    
+}
+
+.footer{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: #8b3036;
+    height: 100px;
+}
+
+.media-icon{
+
+    padding-top: 10px;    
+}
+
+.media-icon:focus,
+.media-icon:hover{
+    cursor: pointer;
+}
+
+
+@media(max-width:600px){
+    .rev-1,.rev-2{   
+        
+        border-bottom: #8B3036 2px solid;
+        border-right:transparent  ;
+    }
+ 
+
+
+}

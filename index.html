@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bev-C</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="webstyle.js"></script>
+
+    <script>
+        $(document).ready(function(){
+          $(".button").click(function(){
+            $(".frame-container").toggle("slow");
+          });
+        });
+        </script>
+
+
+    <title>Bev C's Art</title>
+</head>
+<body>
+    <header>
+     <div class="container w3-container ">
+              <div class="w3-cell-row ">  
+            
+             <div class="rest w3-animate-left w3-cell  w3-center">               
+                 <div id="span-title"> Bev C's Art <img src="Pics\dog profile-small.jpg" alt="profilepic" class="profile-pic" ></div>                 
+             </div>
+              
+                
+               
+             
+         </div>       
+     </div>
+
+    </header>
+<div class="container-2 w3-container">  
+  
+<div class="w3-row">
+
+    <section class="greeting w3-col m12 l12 w3-center ">
+      
+        <h1 class="greeting-title">Hi Welcome to Bev C's Art,</h1>
+          <p class="para-greeting">
+              Small description what you do, what you offer ,
+             
+         
+
+          <div class="button  w3-bar-item ">Contact </div>
+          <a href="https://www.facebook.com/Bev-Cs-Art-101436224938644/" target="_blank"> <i class=" w3-bar-item fa fa-facebook-square media-icon" style="font-size:36px;color:#8B3036"></i></a></p>
+          <div class="content">
+            <div class="frame-container">
+              <iframe
+               src="https://docs.google.com/forms/d/e/1FAIpQLSfGt3uVLJESXr5suqNldGbjI93XQmwQDBaHh8IKPpyI14fmiw/viewform?embedded=true" width="100%" height="100%"  frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+              
+               </iframe>        
+              </div>
+              </div>
+           
+     
+
+
+
+    <section class="slideshow  w3-col m12  ">
+
+        
+       <!--  <h1 style="padding-left: 1.5rem;"   >Gallery </h1>-->
+        <div class="w3-content w3-display-container display">
+
+            <img class="mySlides slides w3-animate-fading-me w3-card-4" src="Pics/alsation.jpg" >
+            <img class="mySlides slides w3-animate-fading-me w3-card-4     " src="Pics/boxer.jpg" >
+            <img class="mySlides slides w3-animate-fading-me w3-card-4   " src="Pics/dog profile.jpg" >
+            <img class="mySlides slides w3-animate-fading-me  w3-card-4   " src="Pics/horse.jpg" >
+          
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+         
+
+
+
+    </section> </section>
+
+    
+</div>
+</div>
+<div class="container-3 w3-container w3-card-4">
+<section class="w3-cell-row review">
+
+<div class="w3-cell w3-mobile rev-1">
+
+  <p class="rev-p">
+   " Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+    Et libero nobis doloribus eaque commodi autem eligendi, perspiciatis
+     dolorem id tenetur accusamus optio nam recusandae dicta?"
+  </p>
+</div>
+
+<div class="w3-cell w3-mobile rev-2">
+  <p class="rev-p"> "Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+    Maiores provident alias molestias cumque omnis quibusdam voluptates ratione
+     voluptatibus animi obcaecati accusantium, perspiciatis dignissimos non minus aliquam 
+     reprehenderit, modi, ipsum unde eaque. Dolor sed ratione soluta."</p>
+</div>
+
+<div class="w3-cell w3-mobile rev-3">
+  <p class="rev-p">
+"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum vel dolore
+ magni quisquam voluptatibus fugiat!"
+  </p>
+</div>
+
+</section>
+</div>
+
+<div class="footer w3-container container-2">
+
+  <section class="w3-cell-row">
+    <h1 class="footer-header">Footer</h1>
+  </section>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</body>
+</html>
